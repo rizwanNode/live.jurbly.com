@@ -23,7 +23,7 @@ const createRoom = async (roomName) => {
     const room = await client.video.rooms
       .create({
         recordParticipantsOnConnect: true,
-        statusCallback: 'https://a.deephire.com/v1/live/events',
+        statusCallback: 'https://a.jurbly.com/v1/live/events',
         type: 'group-small',
         uniqueName: roomName
       })
