@@ -138,7 +138,7 @@ const Documents = ({ candidateData, userName }: DocumentsProps) => (
     )}
     {candidateData.files.map((file: File, i: number) => (
       <TabPane tab={file.name} key={i.toLocaleString() + 1}>
-        <ShowFile url={`https://a.deephire.com/v1/candidates/${candidateData.email}/documents/${file.uid}`} />
+        <ShowFile url={`https://a.jurbly.com/v1/candidates/${candidateData.email}/documents/${file.uid}`} />
       </TabPane>
     ))}
   </Tabs>
