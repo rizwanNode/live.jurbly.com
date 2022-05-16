@@ -1,4 +1,4 @@
-const apiUrl = 'https://a.deephire.com/v1';
+const apiUrl = 'https://a.jurbly.com/v1';
 // const apiUrl = 'http://localhost:3001/v1';
 
 
