@@ -97,7 +97,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               CI=false yarn build
-              aws s3 sync --delete build/ s3://live.deephire.com
+              aws s3 sync --delete build/ s3://live.jurbly.com
             fi
 
 workflows:
