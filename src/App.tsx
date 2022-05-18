@@ -1,6 +1,5 @@
 import React from 'react';
 import { styled } from '@material-ui/core/styles';
-import * as Sentry from '@sentry/browser';
 
 import Controls from './components/Controls/Controls';
 import LocalVideoPreview from './components/LocalVideoPreview/LocalVideoPreview';
@@ -11,7 +10,6 @@ import Room from './components/Room/Room';
 import useHeight from './hooks/useHeight/useHeight';
 import useRoomState from './hooks/useRoomState/useRoomState';
 
-Sentry.init({ dsn: 'https://ba050977b865461497954ae331877145@sentry.io/5187820' });
 
 const Container = styled('div')({
   display: 'grid',
