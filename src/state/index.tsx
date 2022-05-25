@@ -62,7 +62,7 @@ export default function AppStateProvider(props: React.PropsWithChildren<{}>) {
       ...contextValue,
       getToken: async (identity, roomName) => {
         const headers = new window.Headers();
-        const endpoint = 'https://http.jurbly.com/v1/live_token' || '/token';
+        const endpoint = 'https://a.jurbly.com/v1/live_token' || '/token';
         const params = new window.URLSearchParams({ identity, roomName });
 
         return fetch(`${endpoint}?${params}`, { headers }).then(res => res.text());
