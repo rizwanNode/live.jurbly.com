@@ -17,10 +17,10 @@
     "@types/react-dom": "^16.9.5",
     "@types/react-router-dom": "^5.1.3",
     "@types/twilio-video": "^2.7.0",
+    "@ant-design/css-animation": "^1.7.2",
+    "@ant-design/icons": "^4.2.1",
+    "@ant-design/react-slick": "~0.26.1",
     "antd": "4.4.0",
-    "@ant-design/css-animation": "^1.7.2"
-    "@ant-design/icons": "^4.2.1"
-    "@ant-design/react-slick": "~0.26.1"
     "array-tree-filter": "^2.1.0",
     "classnames": "^2.2.6",
     "copy-to-clipboard": "^3.2.0",
